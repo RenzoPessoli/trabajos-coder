@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px){
+  .img__container{
+    display: grid;
+    .img__casco--size{
+      width: 500px;
+      height: 600px;
+      justify-self: center;
+    }
+  }
+  .img__indumentaria--size{
+    width: 500px;
+    height: 600px;
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 768px){
+  .img__container{
+    display: grid;
+    .img__casco--size{
+      justify-self: center;
+    }
+  }
+  
+}
+
